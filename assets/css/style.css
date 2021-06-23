@@ -1,0 +1,44 @@
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+#timer {
+    float:right;
+}
+
+/* may be unnecessary, because of margin in wrapper */
+#quizDiv {
+    margin: 35px;
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: revert;
+    font-size: large;
+}
+
+p {
+   line-height: 30px;
+   padding-bottom: 15px; 
+}
+
+#startButton {
+    margin-left: 165px;
+}

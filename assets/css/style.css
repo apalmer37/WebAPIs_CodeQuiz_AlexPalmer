@@ -42,3 +42,11 @@ p {
 #startButton {
     margin-left: 165px;
 }
+
+ul {
+    list-style: upper-alpha;
+}
+
+li {
+    color: black;
+}

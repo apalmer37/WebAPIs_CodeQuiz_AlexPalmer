@@ -8,21 +8,25 @@
 Description:
 
 Start of quiz.
+
 <img src="assets/Images/begin.png">
 
 
 
 Example of a question with running timer.
+
 <img src="assets/Images/Q&A.png">
 
 
 
 Completed quiz with grade.
+
 <img src="assets/Images/complete.png">
 
 
 
 Highscore page with back button & clear button.
+
 <img src="assets/Images/highscores.png">
 
 
@@ -30,7 +34,7 @@ Highscore page with back button & clear button.
 
 
 Web Address:
-
+https://apalmer37.github.io/WebAPIs_CodeQuiz_AlexPalmer/
 
 
 

@@ -2,21 +2,21 @@
 const quizQuestions = [{
     question: 'How many planets are in the Solar System?',
     multiChoices: [
-        { button: 'a: 7'},
-        { button: 'b: 8'},
-        { button: 'c: 3'},
-        { button: 'd: 2'},
+        'a: 7',
+        'b: 8',
+        'c: 3',
+        'd: 2',
     ],
     answer: 'b: 8'
 },{
     question: 'How many planets are in the Solar System?',
     multiChoices: [
-        { button: 'a: 7'},
-        { button: 'b: 8'},
-        { button: 'c: 3'},
-        { button: 'd: 2'},
+        'a: 7',
+        'b: 3',
+        'c: 8',
+        'd: 2',
     ],
-    answer: 'b: 8'
+    answer: 'c: 8'
 },
 {
     question: 'How many continents are there?',

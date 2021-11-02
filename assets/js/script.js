@@ -33,11 +33,6 @@ function startTimer() {
     }
     $("#incorrect").addClass("hide");
     $("#correct").addClass("hide");
-      // Tests if win condition is met
-      // else if (timerCount > 0) {
-      //   // Clears interval and stops timer
-      //   clearInterval(timer);
-      // };
     // Tests if time has run out
     if (timerCount === 0) {
       // Clears interval
@@ -84,7 +79,6 @@ function correctAnswer(){
 // renders quiz questions
 function render() {
   questionChoices.innerHTML = "";
-  // renQuestions.innerHTML = quizQuestions;
   var currQuestion = quizQuestions[questionNum];
   questionTitle.textContent = currQuestion.question;
   $("#questions").removeClass("hide");
@@ -92,8 +86,7 @@ function render() {
   for (let i = 0; i < currQuestion.multiChoices.length; i++) {
     create(currQuestion.multiChoices[i]);
   }
-  // let showMulti = quizQuestions.multiChoices;
-  // document.write([quizQuestions[0]]);
+
 }
 
 
@@ -122,7 +115,6 @@ function create(questionData)  {
   createButton.addEventListener("click", answerQuestion);
 
   questionChoices.appendChild(createMultiList);
-  // ulCreate.appendChild(createMultiList);
 };
 
 // Attach event listener to start button to call startGame function on click
